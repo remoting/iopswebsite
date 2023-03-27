@@ -4,7 +4,8 @@ const Router = require('koa-router');
 const fs = require('fs');
 const app = new Koa();
 const router = new Router();
-app.use(static(__dirname + '/docs/.vuepress/dist'))
+//app.use(static(__dirname + '/docs/.vuepress/dist'))
+app.use(static("/Users/lanren/project/iops/front"))
 /*
 router.get('/', (ctx) => {
     console.log("sss")
